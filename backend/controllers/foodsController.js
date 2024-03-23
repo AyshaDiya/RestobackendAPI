@@ -5,7 +5,7 @@ const ErrorResponse = require('../utils/errorResponse');
 //create food
 exports.createfood = async (req, res, next) => {
     try {
-        const job = await food.create({
+        const food = await food.create({
             title: req.body.title,
             description: req.body.description,
             price: req.body.salary,
@@ -15,7 +15,7 @@ exports.createfood = async (req, res, next) => {
         });
         res.status(201).json({
             success: true,
-            job
+            foof
         })
     } catch (error) {
         next(error);
