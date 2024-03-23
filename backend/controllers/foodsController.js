@@ -15,7 +15,7 @@ exports.createfood = async (req, res, next) => {
         });
         res.status(201).json({
             success: true,
-            foof
+            food
         })
     } catch (error) {
         next(error);
