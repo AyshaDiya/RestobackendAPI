@@ -13,8 +13,8 @@ var cors = require('cors');
 // import routes
 const authRoutes = require('./routes/authRoutes');
 const userRoutes = require('./routes/userRoutes');
-const foodTypeRoute = require('./routes/foodsTypeRoutes');
-const foodRoute = require('./routes/foodsRoutes');
+const foodsTypeRoute = require('./routes/foodsTypeRoutes');
+const foodsRoute = require('./routes/foodsRoutes');
 
 
 
